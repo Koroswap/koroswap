@@ -75,7 +75,8 @@
     "truffle": "^5.1.65",
     "ts-node": "^9.1.1",
     "typechain": "^4.0.1",
-    "typescript": "^4.1.3"
+    "typescript": "^4.1.3",
+    "web3": "^1.3.5"
   },
   "husky": {
     "hooks": {
@@ -86,11 +87,10 @@
     "*.{ts,js,css,md,json}": "prettier --write"
   },
   "prettier": {},
-  "dependencies": {
-    "@truffle/hdwallet-provider": "^1.2.1",
-    "web3": "^1.3.4"
+  "peerDependencies": {
+    "web3": "1"
   },
   "resolutions": {
-    "web3": "1.3.4"
+    "web3": "^1.3.5"
   }
 }
